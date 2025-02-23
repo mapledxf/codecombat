@@ -2,7 +2,8 @@ version: '3.8'
 
 services:
   mycodecombat:
-    image: operepo/ope-codecombat
+    # image: operepo/ope-codecombat
+    image: mapledxf/codecombat
     container_name: codecombat
     restart: always
     volumes:
