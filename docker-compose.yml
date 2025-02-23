@@ -8,5 +8,6 @@ services:
     volumes:
       - ./data:/home/coco/codecombat/data/
       - ./mongo:/home/coco/codecombat/mongo
+      - ./patch/server_setup.coffee:/home/coco/codecombat/server_setup.coffee
     ports:
       - "3020:3000"
