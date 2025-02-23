@@ -9,9 +9,9 @@ docker compose up -d
 ```
 
 # God Mod
-Assume your username is `admin`
+Assume your username is `mapledxf`
 ```shell
 docker exec -it codecombat mongo
 use coco
-db.users.update({'name':'admin'},{$set:{'earned.gems':9999999,permissions:["godmode","admin"]}},true,false);
+db.users.update({'name':'mapledxf'},{$set:{'earned.gems':9999999,permissions:["godmode","admin"]}},true,false);
 ```
