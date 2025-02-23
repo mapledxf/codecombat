@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mycodecombat:
+    image: operepo/ope-codecombat
+    container_name: codecombat
+    restart: always
+    volumes:
+      - ./data:/home/coco/codecombat/data/
+      - ./mongo:/home/coco/codecombat/mongo
+    ports:
+      - "3020:3000"
